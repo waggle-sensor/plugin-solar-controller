@@ -1,12 +1,19 @@
-name: ""
-description: ""
+name: "solar-controller"
+description: "Publishing metrics from a solar controller"
 keywords: ""
-authors: "Your Name <your.email@somewhere.org>"
+authors: "Yongho Kim <yongho.kim@anl.gov>"
 collaborators: ""
 funding: ""
 license: ""
-homepage: "https://github.com/waggle-sensor/edge-app-template"
+homepage: "https://github.com/waggle-sensor/plugin-solar-controller"
 source:
   architectures:
     - "linux/amd64"
     - "linux/arm64"
+inputs:
+  - id: debug
+    type: boolean
+  - id: host
+    type: string
+  - id: publish-interval
+    type: int
