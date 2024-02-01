@@ -1,0 +1,2 @@
+# Plugin for obtaining metrics from a solar charge controller
+This plugin communicates with MorningStar's [GenStar MPPT product](https://www.morningstarcorp.com/products/genstar-mppt/) to receive metrics from the device. The metrics can be analyzed to understand solar power generation and consumption.
