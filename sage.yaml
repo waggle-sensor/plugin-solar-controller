@@ -1,5 +1,5 @@
-name: "solar-controller"
-description: "Publishing metrics from a solar controller"
+name: "solarcharge-controller"
+description: "Publishing metrics from a solar charge controller"
 keywords: ""
 authors: "Yongho Kim <yongho.kim@anl.gov>"
 collaborators: ""
